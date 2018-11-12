@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/swipebox.css">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+	<!-- start-smooth-scrolling -->
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+			</script>
+	<!-- //start-smoth-scrolling -->
+		<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- swipe box js -->
+	<script src="js/jquery.swipebox.min.js"></script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+<!-- //swipe box js -->
+</head>
+<body>
+	<div class="top-header-agile">
+		<div class="container">
+			<div class="col-md-6 top-header-agile-left">
+				<ul>
+					<li><i class="fa fa-phone" aria-hidden="true"></i></li>
+					<li>17380105054</li>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+					<li><a href="724056401@qq.com">724056401@qq.com</a></li>
+				</ul>
+			</div>
+			<div class="col-md-6 top-header-agile-right">
+				<ul>
+					<li><a href="#"><i class="fa fa-qq" aria-hidden="false"></i></a></li>
+					<li><a href="#"><i class="fa fa-wechat" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-weibo" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="banner" id="home">
+		<div class="header-bottom">
+		     <div class="container">
+			  <div class="fixed-header">
+			      <!--logo-->
+			       <div class="logo">
+                      <a href="index.html"><h1>
+                      WE</h1></a>
+				   </div>
+					<!--//logo-->
+					<nav class="navbar navbar-default cl-effect-16" id="cl-effect-16">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div id="navbar" class="navbar-collapse navbar-right collapse hover-effect">
+							<ul class="nav navbar-nav">
+								<li><a class="scroll" href="#home">山</a></li>
+								<li><a href="#about" class="scroll">海</a></li>
+								<li><a href="#gallery" class="scroll">之</a></li>
+								<!--<li><a href="#team" class="scroll">TEAM</a></li>-->
+								<li ><a class="scroll" href="#contact">间</a></li>
+							</ul>	
+						</div>
+						</nav>
+
+				 <div class="clearfix"></div>
+			 </div>
+		</div>
+	</div>
+		<div class="banner-slider w3layouts">
+				<div class="callbacks_container">
+					<ul class="rslides" id="slider4">
+					    <li>
+						   <div class="banner-info">
+							      <h3>你现在的气质里藏着</h3>
+								  <p>你走过的路</p>
+								     <div class="arrows"><img src="images/border.png" alt="border"/></div>
+								 <span>故事很长，我长话短说</span>
+							  </div>
+						</li>
+						<li>
+						   <div class="banner-info">
+							    <h3>你现在的气质里藏着</h3>
+								 <p>读过的书</p>
+								  <div class="arrows"><img src="images/border.png" alt="border"/></div>
+								 <span>你现在的气质里藏着</span>
+							  </div>
+						</li>
+						<li>
+						   <div class="banner-info">
+							      <h3>你现在的气质里藏着</h3>
+								  <p>爱着的人</p>
+								   <div class="arrows"><img src="images/border.png" alt="border"/></div>
+								   <span>故事很长，我长话短说</span>
+						   </div>
+					  </li>
+					</ul>
+			  </div>
+		<!--banner Slider starts Here-->
+	  	<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager:true,
+			        nav:false,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+	      <!--banner Slider starts Here-->
+		 </div>
+	</div>
+	<!-- About-->
+	<div class="about-w3" id="about">
+		<div class="container">
+			<div class="col-md-6 about-left-w3l">
+				<h2>我们</h2>
+				<p>所爱隔山海，山海不可平。</p>
+				<div class="about-left-wthree">
+					<div class="about-left-w3l-sec1">
+						<div class="col-md-2 about-left-icon-w3ls">
+							<i class="fa fa-envira" aria-hidden="true"></i>
+						</div>
+						<div class="col-md-10 about-left-text-w3ls">
+							<h4>所爱隔山海，山海不可平</h4>
+							<p>有时，外面下着雨心却晴着;又有时，外面晴着心却下着雨。世界上许多东西在对比中让你品味。心晴的时候，雨也是晴;心雨的时候，晴也是雨。</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="about-left-w3l-sec2">
+						<div class="col-md-2 about-left-icon-w3ls">
+							<i class="fa fa-anchor" aria-hidden="true"></i>
+						</div>
+						<div class="col-md-10 about-left-text-w3ls">
+							<h4>海有舟可渡，山有路可行</h4>
+							<p>在这个光怪陆离的人间，没有谁可以将日子过得行云流水。但我始终相信，走过平湖烟雨，岁月山河，那些历尽劫数、尝遍百味的人，会更加生动而干净。时间永远是旁观者，所有的过程和结果，都需要我们自己承担。</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="about-left-w3l-sec3">
+						<div class="col-md-2 about-left-icon-w3ls">
+							<i class="fa fa-heart" aria-hidden="true"></i>
+						</div>
+						<div class="col-md-10 about-left-text-w3ls">
+							<h4>此爱翻山海，山海皆可平</h4>
+							<p>愿你一生有山可靠，有树可栖。与心爱之人，春赏花，夏纳凉。秋登山，冬扫雪。</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 about-right-w3l">
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- //About-->
+	<!--Services-->
+	<div class="services-w3-agileits" id="services">
+		<div class="container">
+			<h3>Services</h3>
+			<div class="service-grids-agileits-w3layouts">
+				<div class="col-md-3 services-grids-w3-agile sg1">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<h4>她说</h4>
+					<p>双眼可以眺望高空，可双脚必须脚踏实地，梦想愿望再大，却必须做好生活中的每件小事
+</p>
+				</div>
+				<div class="col-md-3 services-grids-w3-agile sg2">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<h4>她说</h4>
+					<p>要做的事情总找出时间和机会，不要做的事情总找得出借口。</p>
+				</div>
+				<div class="col-md-3 services-grids-w3-agile sg3">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<h4>她说</h4>
+					<p>如果你真的想面对自己，你必须学会不逃避。无论什么冲你而来，你必须深深地看进它里面去，因为这一深度将成为你的自我认识。</p>
+				</div>
+				<div class="col-md-3 services-grids-w3-agile">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<h4>她说</h4>
+					<p> 就算看不到未来也罢，我们紧握着双手真的真的很温暖哦。 </p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--//services-->
+	
+	<!--Gallery-->
+	<div class="gallery agileits-w3layouts" id="gallery">
+		<div class="container">
+			<h3>Gallery</h3>
+				<div class="gallery-grids">
+					<div class="col-md-6 baner-top">
+						<a href="images/g1.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g1.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>View</h4>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 baner-top">
+						<a href="images/g2.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g2.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>View</h4>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar">
+						<a href="images/g3.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g3.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>View</h4>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar">
+						<a href="images/g4.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g4.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>View</h4>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar">
+						<a href="images/g5.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g5.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>View</h4>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar">
+						<a href="images/g6.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g6.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>View</h4>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 baner-top">
+						<a href="images/g7.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g7.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>View</h4>	
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 baner-top">
+						<a href="images/g8.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g8.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>View</h4>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+					</div>
+		</div>
+	</div>
+	<!-- //gallery -->
+	<div class="tlinks">Collect from <a href="#" >YYYYZ</a></div>
+	
+	<!-- News-->
+	<div class="news w3-agile" id="news">
+		<div class="container">
+			 <h3>WE</h3>
+			 <div class="news-content-w3layouts">
+				<div class="col-md-6 col-sm-6 newsl">
+					<h5>总有一个人，让你无端端微笑.</h5>
+					<a href="#" class="date" data-toggle="modal" data-target="#myModal">2018 08</a>
+					<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/news.jpg" alt="" /></a>
+					<p>永远不要让别人对你说，你不能做一件事，哪怕是自己也不可以。假如你有梦想，你就有责任去捍卫它。别人不能做一件事，他就想告诉你你也不可以。你想得到一样东西，你要踏前一步，实现它。</p>
+				</div>
+				<div class="col-md-6 col-sm-6 newsr">
+					<h4>TAGS</h4>
+					<ul>
+						<li><a href="#" class="hvr-rectangle-in"> 青春</a></li>
+						<li><a href="#"  class="hvr-rectangle-in">热血</a></li>
+						<li><a href="#"  class="hvr-rectangle-in">感受</a></li>
+						<li><a href="#"  class="hvr-rectangle-in">积极</a></li>
+						<li><a href="#"  class="hvr-rectangle-in">激励 </a></li>
+						<li><a href="#"  class="hvr-rectangle-in">无畏</a></li>
+						<li><a href="#"  class="hvr-rectangle-in">自然</a></li>
+						<li><a href="#"  class="hvr-rectangle-in">平凡</a></li>
+						<li><a href="#"  class="hvr-rectangle-in">现实</a></li>
+					</ul>
+					<h6>幸福</h6>
+					<div class="newsrt">
+						<div class="col-md-3 col-sm-3 newsrtl">
+							<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/b1.jpg" alt=" " /></a>
+						</div>
+						<div class="col-md-9  col-sm-9 newsrtr">
+							<p>幸福的秘诀，不在于拥有多少必需的东西，而在于能从不需要的物件中获得多少自由。寻求幸福的方法就在我们心中。需要一个，就只拿一个。拿了两个，连最初拥有的感动也会失去。.</p>
+							<a href="#" class="date" data-toggle="modal" data-target="#myModal">2018 08 </a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="newsrt">
+						<div class="col-md-3 col-sm-3 newsrbl">
+							<a href="#" data-toggle="modal" data-target="#myModal"><img src="images/b2.jpg" alt=" " /></a>
+						</div>
+						<div class="col-md-9 col-sm-9 newsrbr">
+							<p> 我对幸福的看法日趋朴实了。在我看来，一个人若能做自己喜欢做的事，并且靠这养活自己，同时能和自己喜欢的人在一起，并且使他们感到快乐，即可称为幸福。.</p>
+							<a href="#" class="date" data-toggle="modal" data-target="#myModal">2018 08 </a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--// News -->
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">She said </h4>
+				</div>
+				<div class="modal-body">
+					<p> 生命之路只有两条，一是顺其自然，一是拼搏奋斗。顺其自然者，生活其实很简单，过了今天就是明天；拼搏奋斗者，抗争虽然很艰难，但在今天的努力中可以看到明天的影子。起初，我们都是山下的仰望者，犹豫止步者只能想象山顶的风景，唯有那些攀爬至巅峰的人，这座山才会真正支撑着你。</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--team
+	<div class="team wthree" id="team">
+		<div class="container">
+			<div class="team-main">
+				<div class="team-top">
+					<h3>Our Team</h3>
+				</div>
+				<div class="team-bottom">
+					<div class="col-md-3 team-grids tg1">
+						<div class="ih-item circle effect5">
+							<a href="#">
+								<div class="img"><img src="images/t1.jpg" alt="img" class="img-responsive"></div>
+								<div class="info">
+								  <div class="info-back">
+									<h3>Kristen</h3>		          
+								  </div>			          
+								</div>
+							</a>
+						</div>
+						<div class="team-bottom">
+							<h4>Travel Advisor</h4>
+							<p>On the other hand, we denounce with righteous indignation.</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 team-grids tg2">
+						<div class="ih-item circle effect5">
+							<a href="#">
+								<div class="img"><img src="images/t2.jpg" alt="img" class="img-responsive"></div>
+								<div class="info">
+								  <div class="info-back">
+									<h3>Lisa</h3>		           	            
+								  </div>
+								</div>
+							</a>
+						</div>
+						<div class="team-bottom">
+							<h4>Travel Advisor</h4>
+							<p>On the other hand, we denounce with righteous indignation.</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>	 
+					</div>
+					<div class="col-md-3 team-grids tg3">
+						<div class="ih-item circle effect5">
+							<a href="#">
+								<div class="img"><img src="images/t3.jpg" alt="img" class="img-responsive"></div>
+								<div class="info">
+								   <div class="info-back">
+										<h3>Johnson</h3>			       
+								    </div>
+								</div>
+							</a>
+						</div>
+						<div class="team-bottom">
+							<h4>Chairman & CEO</h4>
+							<p>On the other hand, we denounce with righteous indignation.</p>
+						    <ul>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 team-grids">
+						<div class="ih-item circle effect5">
+							<a href="#">
+								<div class="img"><img src="images/t4.jpg" alt="img" class="img-responsive"></div>
+								<div class="info">
+								    <div class="info-back">
+										<h3>Martina</h3>		           
+								    </div>
+								</div>
+							</a>
+						</div>
+						<div class="team-bottom">
+							<h4>Travel Advisor</h4>
+							<p>On the other hand, we denounce with righteous indignation.</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	//team-->
+	
+	<!--contact--
+	<div class="contact" id="contact">
+		<div class="container">
+			<div class="contact-main">
+				<div class="contact-top">
+					<h3>Say Hello</h3>
+				</div>
+				<div class="contact-bottom">
+					<div class="col-md-6 contact-left">
+						<form action="#" method="post">
+							<input type="text"  name="name" placeholder="Name">
+							<input type="text"  placeholder="Email" name="email">					
+							<textarea rows="4" cols="50" name="your message" placeholder="Message"></textarea>
+							<input type="submit"  value="Send Message">
+						</form>
+					</div>
+					<div class="col-md-6 contact-right">
+						<h4>Contact Info</h4>
+						<p> Nemo enim ipsam voluptatem</p>
+						<p>These cases are perfectly </p>
+						<ul>
+							<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"> </span>Professor at Hampden-Sydney</li>
+							<li><span class="glyphicon glyphicon-phone" aria-hidden="true"> </span>+1284 485 978</li>			    	
+							<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span><a href="mailto:info@example.com">@example.com</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//contact-->
+	
+	<!--map-->
+	<div class="map">
+		<iframe src="" style="border:0" allowfullscreen> </iframe>
+	</div>
+	<!--//map-->
+	
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-main">
+				<div class="col-md-4 ftr-grid">
+					<h4>过去</h4>
+					<span class="ftr-line"> </span>
+					<p></p>
+					<p></p>
+				</div>
+				<div class="col-md-4 ftr-grid ftr-mid">
+					 <h4>Social Media</h4>
+					 <span class="ftr-line flm"> </span>
+					   <ul>
+							<li><a href="#"><i class="fa fa-qq" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-weixin" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+						</ul>
+				</div>
+				<div class="col-md-4 ftr-grid ftr-rit">
+					 <h4>未来</h4>
+					 <span class="ftr-line flr"> </span>
+					 <p></p>
+					 <p></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//footer-->
+	
+	<div class="copy-agileinfo">
+		<div class="container">
+			<p>Copyright &copy; 2017.Company name All rights reserved.</p>
+		</div>
+	</div>
+</body>
+</html>
